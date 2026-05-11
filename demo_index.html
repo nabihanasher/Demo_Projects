@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Secure Digital Voting - Login</title>
+  <link rel="stylesheet" href="demo_style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+  <div class="container">
+  <div class="logo">
+  <img src="http://127.0.0.1:5500/secureballot_logo_dark.svg"/>
+  </div>
+
+  <!--signin-->
+  <div class="form login">
+  <form action="#">
+  <h3>Welcome</h3>
+  <p>Sign in to access the voting portal</p>
+  
+  <div class="field">
+  <input type="text" id="username" placeholder="Enter username"required>
+  <i class="fa-regular fa-user"></i>
+  </div>
+  
+  <div class="field">
+  <input type="password" id="pwd" placeholder="Enter password"required>
+  <i class="fa-solid fa-lock"></i>
+  </div>
+  
+  <button type="button" class="submit" onclick="login()">Sign in</button>
+
+  <div class="error" id="error"></div>
+  
+  <div class="forgot">
+  <a href="#">Forgot Password?</a></div>
+  
+  <p class="switch"> Don't have an account? <a onclick="showsignup()">Sign up</a></p>
+   </form>
+  </div>
+ 
+  
+  <!--signup-->
+  <div class="form signup">
+  <form action="#">
+  <h3>New Here!</h3>
+  <p>Please create account</p>
+  
+  <div class="field">
+  <label>Full Name:</label> <input type="text" id="fullname" placeholder="As per your NID"required>
+  <i class="fa-regular fa-user"></i>
+  </div>
+  
+  <div class="field">
+  <label>Username:</label> <input type="text" id="nusername" placeholder="Enter username"required>
+  <i class="fa-regular fa-user"></i>
+  </div>
+  
+  <div class="field">
+  <label>NID:</label> <input type="text" id="nid" placeholder="Enter 10 or 17 digits" maxlength="17" inputmode="numeric" required>
+  <i class="fa-regular fa-id-card"></i>
+  </div>
+
+  <div class="field">
+  <label>Email:</label> <input type="email" id="email" placeholder="Enter your email">
+  <i class="fa-solid fa-at"></i>
+  </div>
+  
+  <div class="field">
+  <label>Password:</label> <input type="password" id="npwd" placeholder="Minimum 6 characters"required>
+  <i class="fa-solid fa-lock"></i>
+  </div>
+  
+  <div class="field">
+  <label>Confirm Password:</label> <input type="password" id="cnpwd" placeholder="Repeat your password"required>
+  <i class="fa-solid fa-lock"></i>
+  </div>
+  
+  <button type="button" class="submit" onclick="signup()">Sign up</button>
+
+  <div id="sucMsg">
+    Account created successfully! Sign in now.
+  </div>
+
+  <div class="error" id="serror"></div>
+  
+  <p class="switch"> Already have an account? <a onclick="showlogin()">Sign in</a>
+  </p>
+  </form>
+  </div>
+  </div>
+  <script src="demo_scrt.js"></script>
+</body>
+</html>

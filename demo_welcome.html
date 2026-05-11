@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>welcome</title>
+  <link rel="stylesheet" href="demo_style.css">
+</head>
+<body>
+  <div class="card">
+<h2 id="wcmsg"></h2>
+<br><p> You have successfully signed in to the voting portal.</p><br>
+<button onclick="logout()">Sign out</button><br><br>
+<button onclick="delaccount()">Delete Account</button>
+</div>
+<script>
+const name= localStorage.getItem("loggedinName");
+if(!name){
+window.location.href="demo_index.html";
+}
+else{
+document.getElementById("wcmsg").textContent="Welcome, "+name+"!";
+}
+function logout(){
+  localStorage.removeItem("loggedinName");
+  window.location.href="demo_index.html";
+}
+function delaccount(){
+  const loggedinUname=localStorage.getItem("loggedinUname");
+  const users=JSON.parse(localStorage.getItem("users"))||[];
+  const update=users.filter(function(u){
+    return u.username!==loggedinUname;
+  });
+localStorage.setItem("users", JSON.stringify(update));
+localStorage.removeItem("loggedinName");
+localStorage.removeItem("loggedinUname");
+window.location.href="demo_index.html";
+} 
+</script>
+</body>
+</html>
