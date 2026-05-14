@@ -1,0 +1,31 @@
+<svg width="100%" viewBox="0 0 680 260" role="img" style="" xmlns="http://www.w3.org/2000/svg">
+  <title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">SecureBallot logo</title>
+  <desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">A shield with a checkmark and blockchain link nodes, with the text SecureBallot and tagline Securing Democracy beneath</desc>
+
+  
+
+  <!-- Shield body -->
+  <path d="M 90 38 L 160 38 L 160 110 Q 160 148 125 165 Q 90 148 90 110 Z" fill="#1a6b3c" style="fill:rgb(26, 107, 60);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Shield inner highlight -->
+  <path d="M 98 46 L 152 46 L 152 109 Q 152 140 125 155 Q 98 140 98 109 Z" fill="#2d9e5f" opacity="0.35" style="fill:rgb(45, 158, 95);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.35;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Checkmark inside shield -->
+  <polyline points="107,101 120,115 145,87" fill="none" stroke="white" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" style="fill:none;stroke:rgb(255, 255, 255);color:rgb(255, 255, 255);stroke-width:7px;stroke-linecap:round;stroke-linejoin:round;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Blockchain dots below shield -->
+  <circle cx="100" cy="188" r="7" fill="#2d9e5f" style="fill:rgb(45, 158, 95);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="125" cy="188" r="7" fill="#1a6b3c" style="fill:rgb(26, 107, 60);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="150" cy="188" r="7" fill="#2d9e5f" style="fill:rgb(45, 158, 95);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <line x1="107" y1="188" x2="118" y2="188" stroke="#1a6b3c" stroke-width="2.5" style="fill:rgb(0, 0, 0);stroke:rgb(26, 107, 60);color:rgb(255, 255, 255);stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <line x1="132" y1="188" x2="143" y2="188" stroke="#1a6b3c" stroke-width="2.5" style="fill:rgb(0, 0, 0);stroke:rgb(26, 107, 60);color:rgb(255, 255, 255);stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- "Secure" in dark, "Ballot" in green -->
+  <text x="178" y="138" style="fill:rgb(26, 107, 60);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Georgia, &quot;DM Serif Display&quot;, serif;font-size:52px;font-weight:700;text-anchor:start;dominant-baseline:auto">
+    <tspan style="fill:rgb(232, 245, 238);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Georgia, &quot;DM Serif Display&quot;, serif;font-size:52px;font-weight:700;text-anchor:start;dominant-baseline:auto">Secure</tspan><tspan fill="#1a6b3c" style="fill:rgb(26, 107, 60);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Georgia, &quot;DM Serif Display&quot;, serif;font-size:52px;font-weight:700;text-anchor:start;dominant-baseline:auto">Ballot</tspan>
+  </text>
+
+  <!-- Tagline -->
+  <text x="180" y="172" style="fill:rgb(138, 171, 151);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:sans-serif;font-size:15px;font-weight:400;text-anchor:start;dominant-baseline:auto">SECURING DEMOCRACY</text>
+
+</svg>
